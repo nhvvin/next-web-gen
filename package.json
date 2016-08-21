@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node_modules/.bin/webpack",
-    "test": "karma start"
+    "build": "NODE_ENV=production node_modules/.bin/webpack",
+    "test": "karma start",
+    "start": "node ./app.js"
   },
   "author": "",
   "license": "ISC",
